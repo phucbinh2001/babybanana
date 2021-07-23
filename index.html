@@ -129,6 +129,29 @@
         width: min-contents;
     }
 
+    .screenshot img {
+        /* border: 1px solid #efefef; */
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        border-radius: 5px;
+    }
+
+    .shot1 img {
+        transform: translateX(30%) scale(0.9);
+        z-index: 1;
+        position: relative;
+    }
+
+    .shot2 img {
+        z-index: 9;
+        position: relative;
+    }
+
+    .shot3 img {
+        transform: translatex(-30%) scale(0.9);
+        z-index: 1;
+        position: relative;
+    }
+
     @media (max-width: 400px) {
         .title {
             font-size: 40px;
@@ -409,8 +432,8 @@
                                 BANANA Dividends
                             </div>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="10"
-                                    aria-valuemin="0" aria-valuemax="100">15%</div>
+                                <div class="progress-bar" role="progressbar" style="width: 18%;" aria-valuenow="10"
+                                    aria-valuemin="0" aria-valuemax="100">10%</div>
                             </div>
                         </div>
                         <div class="phantram mb-2">
@@ -499,10 +522,25 @@
             </div>
         </div>
     </section>
+    <section class="bg-pink pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 screenshot shot1">
+                    <img src="./img/ui banana-02.svg" alt="">
+                </div>
+                <div class="col-4 screenshot shot2">
+                    <img src="./img/ui banana-01.svg" alt="">
+                </div>
+                <div class="col-4 screenshot shot3">
+                    <img src="./img/ui banana-03.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="text-center bg-yellow border-top pt-3 pb-3">
         <div class="mb-2">
-            <a href="#"><img src="./img/tele.svg" alt=""></a>
-            <a href="#"><img src="./img/tw.svg" alt=""></a>
+            <a href="https://t.me/BABYBANANAN" target="_blank"><img src="./img/tele.svg" alt=""></a>
+            <a href="https://mobile.twitter.com/Babybanananaa" target="_blank"><img src="./img/tw.svg" alt=""></a>
         </div>
         Coppyright &copy;2021 Baby Banana
     </footer>
