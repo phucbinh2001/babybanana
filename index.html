@@ -180,6 +180,22 @@
         .m-revese {
             flex-direction: column-reverse;
         }
+
+        .screenshot img {
+            transform: scale(1.5) translateY(8%);
+        }
+
+        .shot1 img {
+            transform: scale(1.2) translateX(10%) translateY(8%);
+        }
+
+        .shot3 img {
+            transform: scale(1.2) translateX(-10%) translateY(8%);
+        }
+
+        .coming {
+            margin-top: 70px;
+        }
     }
 </style>
 
@@ -359,7 +375,8 @@
                     <div class="card pt-3 mb-2">
                         <h3 class="font-cooper text-center" style="font-size: 40px;">Phase 3</h3>
                         <div class="card-content">
-                            <p class="text-center pt-5 pb-5 font-cooper">Share available on coingecko and coinmarketcap.
+                            <p class="text-center pt-5 pb-5 font-cooper">Share available on coingecko and
+                                coinmarketcap. <br> AMM and yield farm on Binance Smart Chain.
                             </p>
                         </div>
                     </div>
@@ -522,7 +539,7 @@
             </div>
         </div>
     </section>
-    <section class="bg-pink pt-5 pb-5">
+    <section class="bg-pink pt-5 pb-3">
         <div class="container">
             <div class="row">
                 <div class="col-4 screenshot shot1">
@@ -534,6 +551,7 @@
                 <div class="col-4 screenshot shot3">
                     <img src="./img/ui banana-03.svg" alt="">
                 </div>
+                <p class="text-center coming" style="font-size: 14px;">*Update coming soon</p>
             </div>
         </div>
     </section>
