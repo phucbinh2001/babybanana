@@ -65,7 +65,7 @@
     }
 
     .title {
-        font-size: 50px;
+        font-size: 60px;
         font-weight: bolder;
     }
 
@@ -78,6 +78,8 @@
         border-radius: 5px;
         margin-bottom: 20px;
         background-color: #000;
+        border-radius: 10px;
+        overflow: hidden;
     }
 
     .video video {
@@ -113,6 +115,11 @@
         margin-bottom: 20px;
     }
 
+    .bg-pink .card {
+        box-shadow: rgb(0 0 12 / 20%) 0px 7px 29px 0px;
+        border-radius: 5px;
+    }
+
     footer img {
         width: 50px;
     }
@@ -131,13 +138,14 @@
             font-size: 30px !important;
         }
 
-        .section1 .card h3 {
+        .section2 .card h3 {
             font-size: 20px !important;
         }
 
         .section1 .title {
             font-size: 30px;
         }
+
 
         .logo-text {
             font-size: 50px;
@@ -164,6 +172,10 @@
         .phase-box {
             width: 100%;
         }
+
+        .m-revese {
+            flex-direction: column-reverse;
+        }
     }
 </style>
 
@@ -173,7 +185,77 @@
             <h1 class="text-center font-bananas logo-text">BABY BANANA</h1>
         </div>
     </nav>
-    <section class="bg-pink section1">
+    <section class="bg-yellow pt-5">
+        <div class="container">
+            <div class="row m-revese">
+                <div class="col-md-7 col-12">
+                    <h1 class="title mt-2 mb-3">HOLD BABYBANANA <br>
+                        REWARDS BANANA</h2>
+                        <p>$BABYBANANAIS the ultimate <b>all-in-one</b> token, providing the very best in cutting edge
+                            code we have created a token that rewards hodlers like never before.</p>
+                        <p>A hyper-deflationary token with automatic distribution of rewards. Fully
+                            customisable to the user, $BABYBANANAIS provides a unique, new and exciting way to
+                            safely invest your finances.</p>
+                </div>
+                <div class="col-md-5 col-12 d-flex align-items-center justify-content-center">
+                    <img class="mb-3" src="./img/logo.png" width="300px" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mt-4">
+                    <div class="video-bg video lazyloaded">
+                        <video autoplay="" preload="none" muted="" poster="./img/poster.jpg">
+                            <source data-src="./img/intro.mp4" src="./img/intro.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section2 bg-pink pt-5 pb-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-3 col-6">
+                    <div class="card mb-3 text-center">
+                        <h3>Community</h3>
+                        <p>Decided buybacks</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="card mb-3 text-center">
+                        <h3>100.000.000</h3>
+                        <p>Total supply</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="card mb-3 text-center">
+                        <h3>5%</h3>
+                        <p>Marketing</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="card mb-3 text-center">
+                        <h3>Rewards</h3>
+                        <p>In multiple tokens</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="card mb-3 text-center">
+                        <h3>Anti-Dump</h3>
+                        <p>Mechanics</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="card mb-3 text-center">
+                        <h3>Up to 10%</h3>
+                        <p>BANANA dividends sent to holders</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="bg-pink section1">
         <div class="container">
             <div class="row pt-5 pb-5">
                 <div class="col-12 col-md-6 d-flex justify-content-center flex-column">
@@ -236,7 +318,7 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
     <section class="roadmap bg-yellow pt-5 pb-5">
         <h2 class="text-center title mb-4">ROADMAP</h2>
         <div class="container">
