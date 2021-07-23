@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Banana</title>
+</head>
+<link rel="icon" type="image/svg" href="./img/logo.svg" />
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/custom.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+<style>
+    @font-face {
+        font-family: customb;
+        src: url('./fonts/STOP.ttf');
+    }
+
+    @font-face {
+        font-family: avo;
+        src: url(./fonts/UTM\ Avo.ttf);
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: avo;
+        src: url(./fonts/UTM\ AvoBold.ttf);
+        font-weight: 500;
+        font-style: bold;
+    }
+
+    body {
+        font-family: avo;
+    }
+
+    .font-bananas {
+        font-family: customb;
+        font-weight: bold;
+    }
+
+    .bg-pink {
+        background: #eb637d;
+    }
+
+    .bg-yellow {
+        background: #FFC022;
+    }
+
+    .roadmap .card-content {
+        min-height: 280px;
+        padding: 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        justify-content: center;
+        background-color: unset;
+        border: none;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        min-height: 150px;
+    }
+
+    .title {
+        font-size: 50px;
+        font-weight: bolder;
+    }
+
+    .logo-text {
+        font-size: 60px;
+    }
+
+    .video {
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        background-color: #000;
+    }
+
+    .video video {
+        width: 100%;
+    }
+
+    .progress {
+        height: 1.5rem;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+
+    .progress-bar {
+        background-color: #000;
+        border-radius: 30px;
+    }
+
+    .phantram-label {
+        font-weight: bold;
+        margin-bottom: 3px;
+    }
+
+    .border-bottom {
+        border-bottom: 1px solid #00000026 !important;
+    }
+
+    .border-top {
+        border-top: 1px solid #00000026 !important;
+    }
+
+    .phase-box {
+        width: calc(100% / 5);
+        margin-bottom: 20px;
+    }
+
+    footer img {
+        width: 50px;
+    }
+
+    footer p-absolute {
+        right: 0;
+        width: min-contents;
+    }
+
+    @media (max-width: 400px) {
+        .title {
+            font-size: 40px;
+        }
+
+        .card h3 {
+            font-size: 30px !important;
+        }
+
+        .section1 .card h3 {
+            font-size: 20px !important;
+        }
+
+        .section1 .title {
+            font-size: 30px;
+        }
+
+        .logo-text {
+            font-size: 50px;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .phase-box {
+            width: calc(100% / 3);
+        }
+    }
+
+    @media (max-width: 768px) {
+        .phase-box {
+            width: calc(100% / 2);
+        }
+
+        .phase-box-lger {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 400px) {
+        .phase-box {
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <nav class="border-bottom bg-pink">
+        <div class="container">
+            <h1 class="text-center font-bananas logo-text">BABY BANANA</h1>
+        </div>
+    </nav>
+    <section class="bg-pink section1">
+        <div class="container">
+            <div class="row pt-5 pb-5">
+                <div class="col-12 col-md-6 d-flex justify-content-center flex-column">
+                    <div class="video-bg video lazyloaded" data-src="/themes/cfd-training/video/CFD-video-bg2.mp4">
+                        <video autoplay="" preload="none" muted="" poster="./images/poster.jpg">
+                            <source data-src="./img/intro.mp4" src="./img/intro.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <h1 class="title text-center mt-2 mb-3">HOLD BABYBANANA <br>
+                        REWARDS BANANA</h2>
+                        <p>$BABYBANANAIS the ultimate <b>all-in-one</b> token, providing the very best in cutting edge
+                            code we have created a token that rewards hodlers like never before.</p>
+                        <p>A hyper-deflationary token with automatic distribution of rewards. Fully
+                            customisable to the user, $BABYBANANAIS provides a unique, new and exciting way to
+                            safely invest your finances.</p>
+                </div>
+                <div class="col-md-6 col-12 text-center">
+                    <img class="mb-3" src="./img/logo.svg" width="250px" alt="">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="card mb-3 text-center">
+                                <h3>Community</h3>
+                                <p>Decided buybacks</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card mb-3 text-center">
+                                <h3>Up to 10%</h3>
+                                <p>BANANA dividends sent to holders</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card mb-3 text-center">
+                                <h3>100.000.000</h3>
+                                <p>Total supply</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card mb-3 text-center">
+                                <h3>5%</h3>
+                                <p>Marketing</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card mb-3 text-center">
+                                <h3>Rewards</h3>
+                                <p>In multiple tokens</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card mb-3 text-center">
+                                <h3>Anti-Dump</h3>
+                                <p>Mechanics</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="roadmap bg-yellow pt-5 pb-5">
+        <h2 class="text-center title mb-4">ROADMAP</h2>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="phase-box phase-box-lger">
+                    <div class="card pt-3">
+                        <h3 class="font-cooper text-center" style="font-size: 40px;">Phase 1</h3>
+                        <div class="card-content">
+                            <p class="text-center pt-5 pb-5 font-cooper">Partnership with marketing
+                                platforms to optimize exposure
+                                and spread awareness of
+                                this cryptocurrency.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="phase-box">
+                    <div class="card pt-3">
+                        <h3 class="font-cooper text-center" style="font-size: 40px;">Phase 2</h3>
+                        <div class="card-content">
+                            <p class="text-center pt-5 pb-5 font-cooper">100% team wallet and
+                                Wallets created are
+                                only for charity and
+                                marketing for
+                                sustainability
+                                of the project.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="phase-box">
+                    <div class="card pt-3">
+                        <h3 class="font-cooper text-center" style="font-size: 40px;">Phase 3</h3>
+                        <div class="card-content">
+                            <p class="text-center pt-5 pb-5 font-cooper">Share available on coingecko and coinmarketcap.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="phase-box">
+                    <div class="card pt-3">
+                        <h3 class="font-cooper text-center" style="font-size: 40px;">Phase 4</h3>
+                        <div class="card-content">
+                            <p class="text-center pt-5 pb-5 font-cooper">Apply to launch idoon bakeryswap.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="phase-box">
+                    <div class="card pt-3">
+                        <h3 class="font-cooper text-center" style="font-size: 40px;">Phase 5</h3>
+                        <div class="card-content">
+                            <p class="text-center pt-5 pb-5 font-cooper">Nft marketplace
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="bg-pink pt-5 pb-5">
+        <div class="container">
+            <h2 class="title text-center">TOKENOMICS</h2>
+            <div class="row">
+                <div class="col-md-6 pl-3 pr-3 col-12 mb-5">
+                    <p class="text-center mb-0" style="font-weight: bold; font-size: 30px;">Buy Fees</p>
+                    <p class="text-center" style="font-weight: bold; font-size: 50px;">14%</p>
+                    <div class="phantram mb-2">
+                        <div class="phantram-label">
+                            BANANA Dividends
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 18%;" aria-valuenow="9"
+                                aria-valuemin="0" aria-valuemax="100">9%</div>
+                        </div>
+                    </div>
+                    <div class="phantram mb-2">
+                        <div class="phantram-label">
+                            Liquidity
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 5%;" aria-valuenow="2"
+                                aria-valuemin="0" aria-valuemax="100">2%</div>
+                        </div>
+                    </div>
+                    <div class="phantram mb-2">
+                        <div class="phantram-label">
+                            Buy Back
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 5%;" aria-valuenow="2"
+                                aria-valuemin="0" aria-valuemax="100">2%</div>
+                        </div>
+                    </div>
+                    <div class="phantram mb-2">
+                        <div class="phantram-label">
+                            Marketing and Development
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 3%;" aria-valuenow="1"
+                                aria-valuemin="0" aria-valuemax="100">1%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <p class="text-center mb-0" style="font-weight: bold; font-size: 30px;">Sell Fees</p>
+                    <p class="text-center" style="font-weight: bold; font-size: 50px;">15%</p>
+                    <div class="phantram mb-2">
+                        <div class="phantram mb-2">
+                            <div class="phantram-label">
+                                BANANA Dividends
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="10"
+                                    aria-valuemin="0" aria-valuemax="100">10%</div>
+                            </div>
+                        </div>
+                        <div class="phantram mb-2">
+                            <div class="phantram-label">
+                                Liquidity
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 5%;" aria-valuenow="2"
+                                    aria-valuemin="0" aria-valuemax="100">2%</div>
+                            </div>
+                        </div>
+                        <div class="phantram mb-2">
+                            <div class="phantram-label">
+                                Buy Back
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 5%;" aria-valuenow="2"
+                                    aria-valuemin="0" aria-valuemax="100">2%</div>
+                            </div>
+                        </div>
+                        <div class="phantram mb-2">
+                            <div class="phantram-label">
+                                Marketing and Development
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 3%;" aria-valuenow="1"
+                                    aria-valuemin="0" aria-valuemax="100">1%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="bg-yellow pt-5 pb-5">
+        <div class="container">
+            <h3>Total Supply</h3>
+            <h1 class="mb-4">100.000.000</h1>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-12">
+                    <div class="phantram mb-2">
+                        <div class="phantram-label">
+                            Marketing
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 7%;" aria-valuenow="5"
+                                aria-valuemin="0" aria-valuemax="100">5%</div>
+                        </div>
+                    </div>
+                    <div class="phantram mb-2">
+                        <div class="phantram-label">
+                            Developement
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 7%;" aria-valuenow="5"
+                                aria-valuemin="0" aria-valuemax="100">5%</div>
+                        </div>
+                    </div>
+                    <div class="phantram mb-2">
+                        <div class="phantram-label">
+                            DXSale Presale
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 48%;" aria-valuenow="48"
+                                aria-valuemin="0" aria-valuemax="100">48%</div>
+                        </div>
+                    </div>
+                    <div class="phantram mb-2">
+                        <div class="phantram-label">
+                            Private
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 7.5%;" aria-valuenow="5.5"
+                                aria-valuemin="0" aria-valuemax="100">5.5%</div>
+                        </div>
+                    </div>
+                    <div class="phantram mb-2">
+                        <div class="phantram-label">
+                            Pancakeswap
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="36.5%"
+                                aria-valuemin="0" aria-valuemax="100">36.5%%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center bg-yellow border-top pt-3 pb-3">
+        <div class="mb-2">
+            <a href="#"><img src="./img/tele.svg" alt=""></a>
+            <a href="#"><img src="./img/tw.svg" alt=""></a>
+        </div>
+        Coppyright &copy;2021 Binance Apes
+    </footer>
+</body>
+<script>
+    const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+    observer.observe();
+</script>
+
+</html>
